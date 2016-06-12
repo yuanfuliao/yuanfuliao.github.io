@@ -10,3 +10,8 @@
     font-family: monospace;
     text-align: right;
 }
+
+body {
+    background-image: url(../back-ground/2.jpg);
+    background-repeat: repeat;
+}
