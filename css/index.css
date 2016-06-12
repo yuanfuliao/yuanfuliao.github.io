@@ -1,0 +1,12 @@
+.title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.titlelink {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: right;
+}
