@@ -1,24 +1,129 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
-    <title>Joseph's Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <p class="title">Joseph's Blog</p>
-    <nav>
-        <ul>
-            <li><a href="#" class="titlelink">Album</a></li>
-            <li><a href="page/blog.html" class="titlelink">Blog</a></li>
-            <li><a href="#" class="titlelink">Guestbook</a></li>
-            <li><a href="#" class="titlelink">Profile</a></li>
-            <li><a href="page/resume.html" class="titlelink">Resume</a></li>
-            <li><a href="page/iphone.html" class="titlelink">iphone</a></li>
-        </ul>
+    <!--carousel+jumbotron-->
+    <div class="carousel slide" id="slideshow" data-ride="carousel">
+        <!--輪播圖片區-->
+        <div class="carousel-inner" role="listbox" id="main">
+            <div class="item active">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>康廷動物醫院</h1>
+                                <p>我們是一家社區服務型的動物醫院,希望成為地區寶貝寵物們的守護者,歡迎大家時常帶著您的寶貝來走走喔!
+
+                                </p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="thumbnail cycleplay"><img src="image/coupon/1.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>康廷動物醫院</h1>
+                                <p>我們是一家社區服務型的動物醫院,希望成為地區寶貝寵物們的守護者,歡迎大家時常帶著您的寶貝來走走喔!
+                                </p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class=" thumbnail"><img src="image/coupon/2.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="jumbotron">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h1>康廷動物醫院</h1>
+                                <p>我們是一家社區服務型的動物醫院,希望成為地區寶貝寵物們的守護者,歡迎大家時常帶著您的寶貝來走走喔!
+                                </p>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="thumbnail cycleplay"><img src="image/coupon/3.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--左右箭頭-->
+        <div class="control-btn">
+            <a href="#slideshow" class="left carousel-control" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hiddden="true"></span>     </a>
+            <a href="#slideshow" class="right carousel-control" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hiddden="true"></span> </a>
+        </div>
+        <!--點點控制-->
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+
+        </ol>
+    </div>
+    <!--carousel+jumbotron End-->
+    <ol class="breadcrumb">
+        <li><a href="#">parent</a></li>
+        <li class="active">this page</li>
+    </ol>
+    <!--navbar-->
+    <nav class="nav navbar navbar-inverse  navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="navbar-brand"><span class="glyphicon glyphicon-home"></span></a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#profile" class="active">關於我</a></li>
+                    <li><a href="#content2">優惠活動</a></li>
+                    <li><a href="#content3">動物領養</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">回家作業<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="page/0621.html" calss="active">0621</a></li>
+                            <li><a href="page/blog.html">blog</a></li>
+                            <li><a href="page/iphone.html">iphone</a></li>
+                            <li><a href="page/resume.html">resume</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
     </nav>
+    <!--navbar End-->
+    <!--主要區塊-->
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
 </body>
 
 </html>

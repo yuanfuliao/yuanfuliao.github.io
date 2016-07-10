@@ -1,0 +1,11 @@
+.jumbotron {
+    background-color: #1c3b3b;
+    background-image: url(images/pic2.jpg);
+    color: white;
+    text-align: center;
+    padding: 250px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
